@@ -14,9 +14,9 @@ namespace Vasiliu_Adrian_Lab1.Controllers
             return View();
         }
 
-        public IActionResult Show(string str, int n)
+        public string Show(string str, int n)
         {
-            return View();
+            return "Stringul primit: " + str + "; nr. primit: " + n;
         }
 
     }
